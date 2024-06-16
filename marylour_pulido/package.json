@@ -1,0 +1,19 @@
+{
+  "name": "marylour_pulido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "maryisawesome": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run goservergo\" \"npm run maryisawesome\""
+  },
+  "author": "Marylour Pulido",
+  "license": "public",
+  "public": true,
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.77.5"
+  }
+}
